@@ -1,5 +1,5 @@
 import React from 'react';
-import Item from './Item.jsx';
+import Panel from './Panel.jsx';
 
 let Application = React.createClass({
   render: function () {
@@ -8,9 +8,9 @@ let Application = React.createClass({
         <div className="row">
           <div className="col-sm-6 col-sm-offset-3 text-center">
             
-            <Item whatIsUniqueAboutThisItem="This is the first item" />
-            <Item whatIsUniqueAboutThisItem="This is the second item" />
-            <Item whatIsUniqueAboutThisItem="This is the third item"
+            <Panel whatIsUniqueAboutThisPanel="This is the first panel" />
+            <Panel whatIsUniqueAboutThisPanel="This is the second panel" />
+            <Panel whatIsUniqueAboutThisPanel="This is the third panel"
                   didYouKnowThat="You can overwrite the default properties" />
 
           </div>

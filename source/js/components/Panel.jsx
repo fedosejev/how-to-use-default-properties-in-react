@@ -1,9 +1,9 @@
 import React from 'react';
 
-let Item = React.createClass({
+let Panel = React.createClass({
   getDefaultProps: function () {
     return {
-      didYouKnowThat: "This default property will be shared across all Item component instances"
+      didYouKnowThat: "This default property will be shared across all Panel component instances"
     };
   },
 
@@ -14,16 +14,16 @@ let Item = React.createClass({
 
     return (
       <div className="panel panel-default text-left" style={style}>
-        <div className="panel-heading">This is an Item component instance.</div>
+        <div className="panel-heading">This is a Panel component instance.</div>
         <div className="panel-body">
           <p>Did you know that...</p>
           <p><strong>{this.props.didYouKnowThat}</strong>.</p> 
-          <p>There is something unique about this item too...</p>
-          <p><strong>{this.props.whatIsUniqueAboutThisItem}</strong>.</p>
+          <p>There is something unique about this component instance too...</p>
+          <p><strong>{this.props.whatIsUniqueAboutThisPanel}</strong>.</p>
         </div>
       </div>
     );
   }
 });
 
-export default Item;
+export default Panel;
