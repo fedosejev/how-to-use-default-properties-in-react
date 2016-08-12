@@ -1,7 +1,7 @@
 # Example of how to use default properties in React.js
 
 + Tutorial: (coming soon)
-+ See it in action: (coming soon)
++ See it in action: https://fedosejev.github.io/how-to-use-default-properties-in-react/
 
 ## Install
 
